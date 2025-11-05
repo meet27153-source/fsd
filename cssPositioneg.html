@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <style>
+            .container{border: 1px solid red; margin-top: 50px; height: 800px;width: 2000px; position:relative}
+            #a{position: static;top: 40px; left: 0; width: 100%; height: 100px; border: 3px solid #73AD21}
+            #b{position: relative;top:590px;height: 100px;width: 100px;border:1px solid #73AD21;}
+            #c{position: absolute; top: 80px; right: 0; width: 200px; height: 100px; border: 3px solid #73AD21;}
+            #d{position: fixed; top: 120px; left: 50px; width: 200px; height: 100px; border: 3px solid #73AD21;}
+            #p{position: relative; border: 3px solid #73AD21; top:150px; left: 350px;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="test" id="a">1</div>
+            <div class="test" id="b">2</div>
+            <div class="test" id="c">3</div>
+            <div class="test" id="d">4</div>
+            <div class="test" id="p">5</div>
+        </div>
+        <div class="container"></div>
+    </body>
+</html>
