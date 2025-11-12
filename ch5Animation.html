@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <style>
+             /* @keyframes demo1{from{background-color: tomato}to{background-color: cyan}}
+            div{height:200px;width:200px;background-color:tomato;
+                animation-name:demo1;animation-duration:10s;animation-delay:5s;animation-direction:normal;animation-timing-function:ease;animation-iteration-count:1;
+            }  */
+             /* @keyframes demo2{0%{background-color:tomato}25%{background-color:cyan}50%{background-color:green}100%{background-color:yellow}}
+              div{height:200px;width:200px;background-color:tomato;
+                animation-name:demo2;animation-duration:10s;animation-delay:2s;animation-direction:normal;animation-timing-function:ease;animation-iteration-count:1;
+            } */
+            @keyframes demo1{from{background-color: tomato;left: 0px;top:0px}to{background-color:cyan;left:1000px;top:0px}}
+             div{height:200px;width:200px;background-color:tomato;
+                animation-name:demo1;animation-duration:10s;animation-delay:0s;animation-direction:alternate;animation-timing-function:ease;animation-iteration-count:infinite;position: relative;
+            }
+             @keyframes demo2{0%{background-color:cyan;left: 0px;top:0px}25%{background-color:tomato;left: 500px;top: 0px;}50%{background-color:green;left: 500px;top: 500px;}100%{background-color:ye`llow;left: 0px;top: 500px;}}
+              div{height:200px;width:200px;background-color:cyan;
+                animation-name:demo2;animation-duration:10s;animation-delay:2s;animation-direction:normal;animation-timing-function:ease;animation-iteration-count:1;
+            } 
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

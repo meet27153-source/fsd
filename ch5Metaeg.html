@@ -1,0 +1,26 @@
+<!-- write down an html code that shows the menu of website that float to the right on a screen above 380px and its contain will appear on the left-hand side -->
+<head>
+        <meta name="viewport" content="width=device_width,initial-scale=1.0">
+        <style>
+            .container{display: flex}
+            section{background-color: gold;padding: 10%;width: 70%}
+            nav{background-color: royalblue;padding: 10%;width: 30%;text-align: center}
+            @media (max-width:380px) {
+                .container{flex-direction:column-reverse}
+                nav{display: none}
+                nav,section{width:100%}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <section>
+                <h1>CONTENT</h1>
+            </section>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+            </nav>
+        </div>
+    </body>
+</html>
